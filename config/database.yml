@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: muckwork_dev
+  username: muckwork
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: muckwork_test
+  username: muckwork
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: muckwork
+  username: muckwork
